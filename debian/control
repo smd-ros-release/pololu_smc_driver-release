@@ -1,0 +1,12 @@
+Source: ros-hydro-pololu-smc-driver
+Section: misc
+Priority: extra
+Maintainer: Scott K Logan <logans@cottsay.net>
+Build-Depends: debhelper (>= 9.0.0), libusb-1.0-0-dev, ros-hydro-catkin, ros-hydro-driver-base, ros-hydro-dynamic-reconfigure, ros-hydro-nodelet, ros-hydro-pluginlib, ros-hydro-roscpp, ros-hydro-std-msgs, ros-hydro-std-srvs, ros-hydro-trajectory-msgs
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-hydro-pololu-smc-driver
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libusb-1.0-0-dev, ros-hydro-driver-base, ros-hydro-dynamic-reconfigure, ros-hydro-nodelet, ros-hydro-pluginlib, ros-hydro-roscpp, ros-hydro-std-msgs, ros-hydro-std-srvs, ros-hydro-trajectory-msgs
+Description: A set of ROS tools to provide an interface to the Pololu SMC family of motor controllers.
