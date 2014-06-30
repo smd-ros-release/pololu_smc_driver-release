@@ -1,0 +1,12 @@
+Source: ros-indigo-pololu-smc-driver
+Section: misc
+Priority: extra
+Maintainer: Scott K Logan <logans@cottsay.net>
+Build-Depends: debhelper (>= 9.0.0), libusb-1.0-0-dev, ros-indigo-catkin, ros-indigo-driver-base, ros-indigo-dynamic-reconfigure, ros-indigo-nodelet, ros-indigo-pluginlib, ros-indigo-roscpp, ros-indigo-std-msgs, ros-indigo-std-srvs, ros-indigo-trajectory-msgs
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-indigo-pololu-smc-driver
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libusb-1.0-0-dev, ros-indigo-driver-base, ros-indigo-dynamic-reconfigure, ros-indigo-nodelet, ros-indigo-pluginlib, ros-indigo-roscpp, ros-indigo-std-msgs, ros-indigo-std-srvs, ros-indigo-trajectory-msgs
+Description: A set of ROS tools to provide an interface to the Pololu SMC family of motor controllers.
